@@ -1,0 +1,618 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Methods · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="methods-2.html">
+            
+                <a href="methods-2.html">
+            
+                    
+                    Methods
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Methods</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="methods">Methods</h1>
+<h2 id="tweet">Tweet</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+let username = &quot;MEME API&quot;
+memer.tweet(avatar,username,text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="youtube">Youtube</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+let username = &quot;MEME API&quot;
+memer.youtube(avatar,username,text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="abandon">Abandon</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const text = &quot;MEME API IS AWESOME&quot;
+memer.abandon(text).then(image =&gt; {
+    //send to a channel 
+})
+</code></pre>
+<h2 id="violence">Violence</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.violence(text).then(image =&gt; {
+    //send to a channel 
+})
+</code></pre>
+<h2 id="ipad">Ipad</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.ipad(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="failure">Failure</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.failure(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="trash">Trash</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.trash(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="satan">Satan</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.satan(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="stroke">Stroke</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.stroke(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="roblox">Roblox</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.roblox(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="hitler">Hitler</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.hitler(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="bed">Bed</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar1 = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const avatar2 = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+memer.bed(avatar1,avatar2).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="jail">Jail</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.jail(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="delete">Delete</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.delete(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="emergency-meeting">Emergency Meeting</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.emergencymeeting(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="byemom">Byemom</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+let username = &quot;MEME API&quot;
+memer.byemom(avatar,username,text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="walking">Walking</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.walking(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="keep-distance">Keep Distance</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.walking(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="fakenews">Fakenews</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.fakenews(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="wanted">Wanted</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.wanted(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="godwhy">Godwhy</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.godwhy(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="shit">Shit</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.shit(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="whodidthis">Whodidthis</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.whodidthis(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="floor">Floor</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.floor(text,avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="obama">Obama</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.obama(text,avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="note">Note</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.note(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="airpods">Airpods</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.airpods(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="america">America</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.america(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="affect">Affect</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.affect(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="armor">Armor</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.armor(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="facts">Facts</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.facts(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="brazzers">Brazzers</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.brazzers(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="cancer">Cancer</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.cancer(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="change-my-mind">Change My Mind</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.changemymind(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="communism">Communism</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.communism(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="corporate">Corporate</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.corporate(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="cry">Cry</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.cry(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="dab">Dab</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.dab(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="disability">Disability</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.disability(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="door">Door</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.door(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="egg">Egg</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.egg(avatar).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id="excuseme">Excuseme</h2>
+<pre><code class="lang-text">const Meme = require(&quot;meme-api&quot;);
+const memer = new Meme()
+const avatar = &quot;https://cdn.discordapp.com/attachments/801132434283954199/829058307946708992/shinchan.png&quot;
+const text = &quot;MEME API IS AWESOME&quot;
+memer.excuseme(text).then(image =&gt; {
+
+})
+</code></pre>
+<h2 id=""> </h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Methods","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"methods-2.md","mtime":"2021-04-06T19:46:52.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-07T12:22:11.988Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
